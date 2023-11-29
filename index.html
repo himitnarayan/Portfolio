@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5fb7710e9c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+<img src="logo.png" alt="logo">
+<ul id="sidemenu">
+    <li><a href="#header">Home</a></li>
+    <li><a href="#about">about</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">contact</a></li>
+    <i class="fas fa-times" onclick="closemenu()"></i>
+</ul>
+<i class="fas fa-bars" onclick="openmenu()"></i>
+         </nav>
+         <div class="header-text">
+            <p>Web developer</p>
+            <h1>Hi, I'm<br><span>Himit</span> Narayan</h1>
+         </div>
+    </div>
+    </div>
+    <!-- ------about------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Seeking a challenging software engineering position in a dynamic and innovative organization where I can
+                        apply my skills in software development, programming, and problem-solving to design and deliver high-quality software solutions that meet business objectives and exceed customer expectations</p>
+<div class="tab-tiles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+<div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>UI/UX</span><br>Designer webapp interface</li>
+        <li><span>Web Development</span><br>Web App Development</li>
+        <li><span>Java</span><br></li>
+        <li><span>C</span><br></li>
+    </ul>
+</div>
+<div class="tab-contents" id="education">
+    <ul>
+        <li><span>B.tech(in progress)</span><br>from Dr. APJ Abdul Kalam Technical University </li>
+        <li><span>12th(2022)</span><br>from bishop johnson school and college</li>
+        <li><span>10th(2020)</span><br>from bishop johnson school and college</li>
+    </ul>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------services----- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">    
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design refers to the design of websites. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers
+                    </p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UX design refers to the term “user experience design”, while UI stands for “user interface design”. Both elements are crucial to a product and work closely together. But despite their professional relationship, the roles themselves are quite different, referring to very different aspects of the product development process and the design discipline.
+                    </p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App  Design</h2>
+                    <p>App design is the look and feel of a mobile application. This includes all of the visual elements and interactive elements that impact how the app functions.
+
+                        Mobile app design combines two concepts—UI and UX.
+                        
+                        The user interface (UI) encompasses the app’s look and feel. It includes color, font, app style, and similar design choices. The user experience (UX) design prioritizes the app’s functions and use. 
+                    </p>
+                    <a href="#">Learn more</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------porfolio----- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" >
+                    <div class="layer">
+                        <h3>
+                            Landing page
+                        </h3>
+                        <p>
+                            In digital marketing, a landing page is a standalone web page, created specifically for a marketing or advertising campaign. 
+                        </p>
+                        <a href="https://darling-hummingbird-a5c881.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" >
+                    <div class="layer">
+                        <h3>
+                            Calculator
+                        </h3>
+                        <p>
+                            A calculator is a device that performs arithmetic operations on numbers. Basic calculators can do only addition, subtraction, multiplication and division mathematical calculations.
+                        </p>
+                        <a href="https://thriving-youtiao-886ed3.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" >
+                    <div class="layer">
+                        <h3>
+                            Portfolio
+                        </h3>
+                        <p>
+                            A portfolio is a compilation of academic and professional materials that exemplifies your beliefs, skills, qualifications, education, training, and experiences. It provides insight into your personality and work ethic.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See More</a>
+        </div>
+
+    </div>
+    <!-- --------contact------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>himitnarayan73413@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>6306421400</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/_himit_21_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/hellcast23"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://github.com/himitnarayan"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/himit-narayan-a55a64293/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Himit Narayan <i class="fa-solid fa-hippo"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+sidemenu.style.right = "0";
+        }
+        function closemenu(){
+sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyBNHSrOhHCYRS9Ss9EKNZjpMMDByBhaJlCZCoPWUdav47O1y02jnmmofyXJiUKqzdYPg/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg");
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML = "Message sent Successfully"
+        setTimeout(function(){
+msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
